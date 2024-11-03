@@ -1,0 +1,132 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fcfcfc;
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+body::before {
+    content: "";
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('/images/denji.jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+
+#about {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#about a {
+   font-weight: 400;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    color:#0e0e0e;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 1.5em;
+}
+
+.card .description {
+    margin: 15px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #131212;
+    background-color: #ffd306;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #311a2c;
+    color: #ffffff;
+}
+
+
+#technologies {
+    padding: 40px;
+    text-align: center;
+}
+
+#technologies h2 {
+    margin-bottom: 20px;
+}
+
+.tech-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+body a{
+    color: white;
+    font-weight: 500;
+}
+
+.tech-logos img {
+    width: 60px;
+    height: 60px;
+}
+
+
+footer {
+    
+    padding: 20px;
+    color: #ddd;
+    text-align: center;
+    border-top: 1px solid #4b4b4b;
+}
+
+footer a {
+    color: #b8b8b8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
