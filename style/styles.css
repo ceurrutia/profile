@@ -11,7 +11,7 @@ body {
 body::before {
     content: "";
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                url('/images/himura.jpg') no-repeat center center;
+                url('https://images8.alphacoders.com/785/thumb-1920-785497.jpg') no-repeat center center;
     background-size: cover;
     opacity: 3;
     position: fixed;
@@ -28,6 +28,14 @@ header {
     padding: 20px;
 }
 
+
+.subtitle {
+    white-space: nowrap; /* Evita el salto de línea */
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #fcfcfc;
+    opacity: 0.9;
+}
 
 #about {
     text-align: center;
@@ -129,4 +137,13 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .subtitle {
+        white-space: normal; 
+        font-size: 1em;     
+        text-align: center;
+        padding: 10px;
+    }
 }
