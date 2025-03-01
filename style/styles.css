@@ -11,7 +11,7 @@ body {
 body::before {
     content: "";
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                url('https://images8.alphacoders.com/785/thumb-1920-785497.jpg') no-repeat center center;
+                url('https://images.alphacoders.com/132/1329915.jpeg') no-repeat center center;
     background-size: cover;
     opacity: 3;
     position: fixed;
